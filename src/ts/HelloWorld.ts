@@ -1,17 +1,19 @@
 class HelloWorld
 {
-    constructor(public greeting: string)
-    {
+    public greeting: string;
 
+    constructor(greet : string)
+    {
+        this.greeting = greet;
     }
+
 
     greet()
     {
-        console.log("Hello World")
+        console.log(this.greeting)
     }
 }
 
 var greeter = new HelloWorld("Hello World");
-var greeter2 = new HelloWorld();
 
 greeter.greet();

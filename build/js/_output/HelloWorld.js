@@ -1,0 +1,1 @@
+var HelloWorld=function(){function HelloWorld(greet){this.greeting=greet}return HelloWorld.prototype.greet=function(){console.log(this.greeting)},HelloWorld}(),greeter=new HelloWorld("Hello World");greeter.greet();

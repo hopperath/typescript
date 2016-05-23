@@ -1,0 +1,10 @@
+{
+  "strict" : "global",
+  "node" : true,
+  "latedef": false,
+  "globals" : {
+    "require": false,
+    "console" : false,
+    "module" : false
+  }
+}
